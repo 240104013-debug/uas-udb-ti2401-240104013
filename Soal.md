@@ -90,7 +90,7 @@
 
 ---
 
-### 5. Deploy ke Google Cloud Run (20 Point)
+### 5. Deploy ke Google Cloud Run (15 Point)
 
 > 📦 **Gunakan repository `uas-udb-ti2401-<nim>` yang sudah dibuat dan disetup pada langkah 1-4**
 
@@ -113,7 +113,7 @@
 | Kondisi | Pengurangan |
 |---------|-------------|
 | Aplikasi tidak berjalan | **0 point** |
-| Aplikasi tidak dapat diakses dari internet | -10 point |
+| Aplikasi tidak dapat diakses dari internet | -5 point |
 
 ---
 
@@ -157,7 +157,9 @@
 
 ---
 
-### 8. Submit Laporan (10 Point)
+### 8. Submit Laporan (15 Point) ⚠️ WAJIB
+
+> 🚨 **WAJIB: Jika tidak submit laporan, maka TOTAL NILAI dikurangi 50%**
 
 **Ketentuan:**
 - Submit laporan cara pengerjaan pada Google Form berikut:
@@ -169,7 +171,7 @@
 **Pengurangan Nilai:**
 | Kondisi | Pengurangan |
 |---------|-------------|
-| Tidak mengirim report sama sekali | **0 point** |
+| Tidak mengirim report sama sekali | **Total nilai × 50%** |
 | Kirim report seadanya / full prompt AI | -5 point |
 
 ---
@@ -182,10 +184,10 @@
 | 2 | Buat Branch Main dan Dev | 5 |
 | 3 | Clone dan Push Repository Base | 10 |
 | 4 | Invite Collaborator | 10 |
-| 5 | Deploy ke Google Cloud Run | 20 |
+| 5 | Deploy ke Google Cloud Run | 15 |
 | 6 | CI/CD Pipeline Branch Main | 20 |
 | 7 | CI/CD Pipeline Branch Dev | 20 |
-| 8 | Submit Laporan | 10 |
+| 8 | Submit Laporan | 15 |
 | | **Total** | **100** |
 
 ---
@@ -197,3 +199,103 @@
 > ✅ **Passing Grade: 60** — Nilai minimum untuk lulus
 > 
 > 🏆 **With Merit: 80** — Nilai untuk mendapat predikat merit/Grade A
+>
+> 🚨 **Submit Laporan WAJIB** — Jika tidak submit, total nilai dikurangi 50%
+
+---
+
+## 📈 Simulasi Penilaian
+
+### Contoh 1: Nilai Sempurna (Submit Laporan ✅)
+
+| No | Tugas | Point Maksimal | Point Didapat |
+|----|-------|----------------|---------------|
+| 1 | Buat Repository GitHub | 5 | 5 |
+| 2 | Buat Branch Main dan Dev | 5 | 5 |
+| 3 | Clone dan Push Repository Base | 10 | 10 |
+| 4 | Invite Collaborator | 10 | 10 |
+| 5 | Deploy ke Google Cloud Run | 15 | 15 |
+| 6 | CI/CD Pipeline Branch Main | 20 | 20 |
+| 7 | CI/CD Pipeline Branch Dev | 20 | 20 |
+| 8 | Submit Laporan | 15 | 15 |
+| | **Total** | **100** | **100** ✅ |
+
+**Hasil:** 100 point → **With Merit/Grade A** 🏆
+
+---
+
+### Contoh 2: Nilai Baik (Submit Laporan ✅)
+
+| No | Tugas | Point Maksimal | Point Didapat | Keterangan |
+|----|-------|----------------|---------------|------------|
+| 1 | Buat Repository GitHub | 5 | 5 | ✅ |
+| 2 | Buat Branch Main dan Dev | 5 | 5 | ✅ |
+| 3 | Clone dan Push Repository Base | 10 | 10 | ✅ |
+| 4 | Invite Collaborator | 10 | 10 | ✅ |
+| 5 | Deploy ke Google Cloud Run | 15 | 15 | ✅ |
+| 6 | CI/CD Pipeline Branch Main | 20 | 20 | ✅ |
+| 7 | CI/CD Pipeline Branch Dev | 20 | 0 | CI/CD tidak berhasil |
+| 8 | Submit Laporan | 15 | 15 | ✅ |
+| | **Total** | **100** | **80** ✅ |
+
+**Hasil:** 80 point → **With Merit/Grade A** 🏆
+
+---
+
+### Contoh 3: Nilai Cukup (Submit Laporan ✅)
+
+| No | Tugas | Point Maksimal | Point Didapat | Keterangan |
+|----|-------|----------------|---------------|------------|
+| 1 | Buat Repository GitHub | 5 | 5 | ✅ |
+| 2 | Buat Branch Main dan Dev | 5 | 5 | ✅ |
+| 3 | Clone dan Push Repository Base | 10 | 10 | ✅ |
+| 4 | Invite Collaborator | 10 | 10 | ✅ |
+| 5 | Deploy ke Google Cloud Run | 15 | 15 | ✅ |
+| 6 | CI/CD Pipeline Branch Main | 20 | 0 | Pipeline tidak jalan |
+| 7 | CI/CD Pipeline Branch Dev | 20 | 0 | Pipeline tidak jalan |
+| 8 | Submit Laporan | 15 | 15 | ✅ |
+| | **Total** | **100** | **60** ✅ |
+
+**Hasil:** 60 point → **LULUS** (Passing Grade) ✅
+
+---
+
+### Contoh 4: Tidak Submit Laporan ❌ (Penalti 50%)
+
+| No | Tugas | Point Maksimal | Point Didapat | Keterangan |
+|----|-------|----------------|---------------|------------|
+| 1 | Buat Repository GitHub | 5 | 5 | ✅ |
+| 2 | Buat Branch Main dan Dev | 5 | 5 | ✅ |
+| 3 | Clone dan Push Repository Base | 10 | 10 | ✅ |
+| 4 | Invite Collaborator | 10 | 10 | ✅ |
+| 5 | Deploy ke Google Cloud Run | 15 | 15 | ✅ |
+| 6 | CI/CD Pipeline Branch Main | 20 | 20 | ✅ |
+| 7 | CI/CD Pipeline Branch Dev | 20 | 20 | ✅ |
+| 8 | Submit Laporan | 15 | 0 | ❌ Tidak submit |
+| | **Subtotal** | **100** | **85** | |
+| | **Penalti (50%)** | | **-42.5** | ❌ Tidak submit laporan |
+| | **Total Akhir** | | **42.5** ❌ |
+
+**Hasil:** 42.5 point → **TIDAK LULUS** ❌ (di bawah Passing Grade 60)
+
+---
+
+### Contoh 5: Nilai Sempurna Tapi Tidak Submit Laporan ❌
+
+| No | Tugas | Point Maksimal | Point Didapat | Keterangan |
+|----|-------|----------------|---------------|------------|
+| 1 | Buat Repository GitHub | 5 | 5 | ✅ |
+| 2 | Buat Branch Main dan Dev | 5 | 5 | ✅ |
+| 3 | Clone dan Push Repository Base | 10 | 10 | ✅ |
+| 4 | Invite Collaborator | 10 | 10 | ✅ |
+| 5 | Deploy ke Google Cloud Run | 15 | 15 | ✅ |
+| 6 | CI/CD Pipeline Branch Main | 20 | 20 | ✅ |
+| 7 | CI/CD Pipeline Branch Dev | 20 | 20 | ✅ |
+| 8 | Submit Laporan | 15 | 0 | ❌ Tidak submit |
+| | **Subtotal** | **100** | **85** | |
+| | **Penalti (50%)** | | **-42.5** | ❌ Tidak submit laporan |
+| | **Total Akhir** | | **42.5** ❌ |
+
+**Hasil:** 42.5 point → **TIDAK LULUS** ❌ 
+
+> ⚠️ **Meskipun semua tugas teknis sempurna, tanpa submit laporan tetap TIDAK LULUS!**
