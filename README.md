@@ -113,3 +113,6 @@ uas-udb-ti2401/
 ## 📝 Lisensi
 
 Proyek ini dibuat untuk tugas UAS UDB TI2401.
+## Keterangan
+
+Repository ini merupakan hasil clone dari repository base UAS dan telah disesuaikan untuk memenuhi tugas UAS Manajemen Jaringan.
