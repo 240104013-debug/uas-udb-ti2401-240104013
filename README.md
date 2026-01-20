@@ -1,3 +1,4 @@
+HEAD
 # Clickjacking Vulnerability Checker
 
 Aplikasi web sederhana untuk memeriksa apakah sebuah website rentan terhadap serangan **clickjacking**.
@@ -115,4 +116,6 @@ uas-udb-ti2401/
 Proyek ini dibuat untuk tugas UAS UDB TI2401.
 ## Keterangan
 
-Repository ini merupakan hasil clone dari repository base UAS dan telah disesuaikan untuk memenuhi tugas UAS Manajemen Jaringan.
+Repository ini merupakan hasil clone dari repository base UAS dan telah disesuaikan untuk memenuhi tugas UAS Manajemen Jaring
+# uas-udb-ti2401-240104013
+365ab6641e65665ff2e7b51e5504c49be13919cc
